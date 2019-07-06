@@ -1,0 +1,7 @@
+l = ['1','2','3','4','5','6','7','8','1']
+print(l)
+valor = input("digite o valor duplo:")
+bbq = l.count(valor)
+if bbq > 1:
+    l.remove(valor)
+    print(l)
