@@ -1,0 +1,3 @@
+a = str(input("digite seu nome:"))
+b = str(input("digite seu sobrenome:"))
+print(a,b)
