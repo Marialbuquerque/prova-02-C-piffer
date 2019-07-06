@@ -1,0 +1,36 @@
+dia = int(input("insira o dia do seu aniversário: "))
+mês = int(input("insira o mês do seu aniversário(em algarismo): "))
+
+if mês == 12 or mês == 1 or mês == 2 or mês == 3:
+    if dia <= 22 and mês == 12:
+        print("você nasceu na primavera")
+
+        if dia > 20 and mês == 3:
+            print('você nasceu no outono')
+    else:
+        print('você nasceu no verão')
+
+if mês == 3 or mês == 4 or mês == 5 or mês == 6:
+    if dia <= 20 and mês == 3:
+        print("você nasceu no verão")
+        if dia >= 21 and mês == 6:
+            print('você nasceu no inverno')
+    else:
+        print('você nasceu no outono')
+
+if mês == 6 or mês == 7 or mês == 8 or mês == 9:
+    if dia <= 21 and mês == 6:
+        print("você nasceu no outono")
+        if dia >= 23 and mês == 9:
+            print('você nasceu na primavera')
+    else:
+        print('você nasceu no inverno ')
+
+if mês == 10 or mês == 11 or mês == 12 or mês == 9:
+    if dia <= 23 and mês == 9:
+        print("você nasceu no inverno")
+
+        if dia >= 22 and mês == 12:
+            print('você nasceu no verão')
+        else:
+            print('você nasceu na primavera')
